@@ -51,6 +51,7 @@ body {
 body {
   display: grid;
   grid-template-columns: 1fr 50% 1fr;
+	justify-content: center:
 }
 main {
   grid-column: 2;
@@ -60,8 +61,19 @@ footer {
   grid-column: 2;
   grid-row: 3;
 }
+/*===========================================
+========    SPECIFIC FORMATTING  ============
+===========================================*/
+main, footer {
+	text-align: center;
+}
 /* Images */
 img {
   display: block;
   max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#tribute-info > p{
+	text-align: left;
 }
